@@ -1,0 +1,119 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF; /* Pure white background */
+    color: #000000; /* Pure black text */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form container */
+form {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+/* Input and label styling */
+.input-container {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #000000; /* Ensure black text */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Button styling */
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #000000; /* Black button */
+    color: #FFFFFF; /* White text */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #333333; /* Dark gray on hover */
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000; /* Black text */
+    background-color: #FFFFFF; /* White background */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#racePlan {
+    white-space: pre-wrap; /* Allow line breaks */
+    word-wrap: break-word; /* Wrap text within the div */
+    background: #f9f9f9; /* Light gray background for contrast */
+    padding: 10px; /* Add padding for readability */
+    border: 1px solid #ddd; /* Subtle border for the box */
+    border-radius: 4px; /* Rounded corners */
+    max-width: 768px; /* Align with buttons and inputs */
+    width: 100%;
+    margin: 20px auto; /* Center the div */
+    line-height: 1.6; /* Improve text readability */
+    font-size: 16px; /* Consistent font size */
+}
+
+
